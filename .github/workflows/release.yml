@@ -18,3 +18,5 @@ jobs:
         repoOwner: plumpy
         upstreamOwner: plumpy
         reviewers: ''
+      env:
+        GITHUB_OAUTH: ${{ secrets.REPO_OAUTH_TOKEN }}
