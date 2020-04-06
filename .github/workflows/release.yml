@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: plumpy/bumpdep@master
       with:
-        tag: ${{ github.ref }}
+        ref: ${{ github.ref }}
         key: korkVersion
         repositories: fiat,echo
         repoOwner: plumpy
